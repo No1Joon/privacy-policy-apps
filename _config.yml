@@ -1,3 +1,9 @@
 title: Privacy Policies
 description: 개인정보 처리방침 hub
 theme: jekyll-theme-cayman
+
+exclude:
+  - CLAUDE.md
+  - README.md
+  - .claude/
+  - .gemini/
