@@ -5,113 +5,142 @@ title: JJTeam 개인정보 처리방침
 # JJTeam 개인정보 처리방침
 
 **효력 발생일:** 2026-05-09
+**최종 수정일:** 2026-05-09
 
-JJTeam("앱")은 사용자의 개인정보를 최소한으로만 처리하며, 수집된 정보를 외부로 전송하거나 제3자에게 제공하지 않습니다.
+JJTeam("앱")은 「개인정보 보호법」 제30조에 따라 정보주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리방침을 수립·공개합니다.
 
-## 1. 수집·저장하는 정보
+본 앱은 외부 서버와 통신하지 않으며, 사용자의 입력 정보는 사용자의 디바이스에만 로컬 저장됩니다. 따라서 앱 운영자는 사용자의 개인정보에 접근하거나 이를 외부로 수집·전송하지 않습니다.
 
-앱은 사용자가 직접 입력한 다음 정보를 디바이스의 로컬 저장소(`AsyncStorage`)에 저장합니다:
+---
+
+## 1. 처리하는 개인정보 항목
+
+앱은 다음 정보를 사용자가 직접 입력한 경우에 한하여, 사용자의 디바이스 로컬 저장소(`AsyncStorage`)에 저장합니다.
 
 - 팀 이름
 - 회원 이름과 등급(상/중/하)
 - 코트·대기열 구성 정보
-- 시간 임계값, 코트 개수, 코트당 인원 등 앱 설정 값
-- 대기열 진입 시각 등 운영 데이터
+- 시간 임계값, 코트 개수, 코트 당 인원 등 앱 설정 값
+- 대기열 진입 시각 등 운영 보조 데이터
 
-위 정보는 사용자의 디바이스를 벗어나지 않으며, 앱 개발자, 운영자, 또는 어떠한 제3자에게도 전송되지 않습니다.
-
-## 2. 정보 수집·이용 목적
-
-저장된 정보는 다음 목적으로만 사용됩니다:
-
-- 사용자가 앱을 재실행할 때 이전 상태(팀 구성, 회원 목록, 설정 등)를 복원
-
-## 3. 네트워크 통신
-
-앱은 어떠한 외부 서버와도 통신하지 않습니다. 분석(analytics) 도구, 광고 SDK, 크래시 리포트 도구를 사용하지 않습니다.
-
-## 4. 제3자 제공
-
-없음. 정보는 사용자 디바이스에만 저장되므로 제3자에게 전달될 경로 자체가 없습니다.
-
-## 5. 데이터 보관 기간 및 삭제
-
-모든 데이터는 사용자가 앱을 사용하는 동안 디바이스에 보관됩니다. 사용자는 다음 방법으로 모든 데이터를 즉시 삭제할 수 있습니다:
-
-- 앱 삭제(제거)
-- 디바이스 설정 → 앱 → JJTeam → 저장공간 → 데이터 삭제
-
-## 6. 자녀의 개인정보
-
-앱은 13세 미만 아동을 대상으로 하지 않으며, 아동으로부터 개인정보를 의도적으로 수집하지 않습니다.
-
-## 7. 권한
-
-앱은 카메라·위치·마이크·연락처 등 어떤 시스템 권한도 요청하지 않습니다.
-
-## 8. 정책 변경
-
-본 방침이 변경될 경우 본 페이지에 새로운 효력 발생일과 함께 게시합니다. 중요한 변경 사항은 앱 업데이트 노트에도 안내됩니다.
-
-## 9. 문의
-
-본 방침에 관한 문의는 아래 이메일로 보내주시기 바랍니다:
-
-**Email:** jjrottensweetpotato@gmail.com
+위 정보는 사용자의 디바이스를 벗어나지 않으며, 앱 운영자나 제3자에게 전송·제공되지 않습니다.
 
 ---
 
-# JJTeam Privacy Policy (English)
+## 2. 개인정보의 처리 목적
 
-**Effective date:** 2026-05-09
+저장된 정보는 오직 다음 목적으로만 사용됩니다.
 
-JJTeam ("the App") collects only the minimum information needed for the app to function, and never transmits any data to external servers or third parties.
+- 사용자가 앱을 재실행할 때 이전 상태(팀 구성, 회원 목록, 설정 등) 복원
 
-## 1. Information We Store
+---
 
-The App stores the following information that you enter, locally on your device using `AsyncStorage`:
+## 3. 개인정보의 보유 및 이용 기간
 
-- Team name
-- Member names and grades (high/mid/low)
-- Court and queue configuration
-- Time thresholds, court count, court capacity, and other settings
-- Operational data such as queue enqueue timestamps
+저장된 정보는 사용자가 앱을 사용하는 동안 디바이스에 보관되며, 사용자가 정보를 직접 삭제하거나 앱을 제거하면 즉시 파기됩니다.
 
-This information never leaves your device and is not transmitted to the developer or any third party.
+---
 
-## 2. Purpose
+## 4. 개인정보의 제3자 제공
 
-The stored data is used only to restore your previous state (team setup, member list, settings) when you reopen the app.
+앱은 사용자의 정보를 어떠한 제3자에게도 제공하지 않습니다. 정보가 사용자 디바이스에만 저장되므로 외부 전송 경로가 존재하지 않습니다.
 
-## 3. Network Communication
+---
 
-The App does not communicate with any external server. We do not use analytics, ad SDKs, or crash reporting tools.
+## 5. 개인정보처리의 위탁
 
-## 4. Third-Party Sharing
+앱은 사용자의 정보 처리를 외부에 위탁하지 않습니다.
 
-None.
+---
 
-## 5. Data Retention and Deletion
+## 6. 개인정보의 파기 절차 및 방법
 
-All data lives on your device. You can delete all data at any time by:
+- **파기 절차:** 사용자가 앱 내에서 정보를 삭제하거나 디바이스에서 앱을 제거할 경우, 운영체제의 앱 데이터 삭제 메커니즘에 따라 즉시 파기됩니다.
+- **파기 방법:** 디바이스 로컬 저장소에서 영구 삭제됩니다(별도의 백업 또는 외부 사본이 존재하지 않음).
 
-- Uninstalling the App, or
-- Going to your device Settings → Apps → JJTeam → Storage → Clear data
+사용자는 다음 방법으로 즉시 모든 데이터를 삭제할 수 있습니다.
 
-## 6. Children's Privacy
+1. 앱 삭제(제거)
+2. 디바이스 설정 → 앱 → JJTeam → 저장공간 → 데이터 삭제
 
-The App is not directed to children under 13 and does not knowingly collect data from them.
+---
 
-## 7. Permissions
+## 7. 정보주체의 권리·의무 및 행사 방법
 
-The App requests no system permissions (no camera, location, microphone, contacts, etc.).
+사용자(정보주체)는 「개인정보 보호법」 제35조 내지 제37조에 따라 본인의 개인정보에 대한 열람, 정정, 삭제, 처리정지를 요구할 권리를 가집니다.
 
-## 8. Changes to This Policy
+본 앱은 모든 데이터가 사용자 디바이스에 저장되므로 사용자가 직접 다음과 같이 권리를 행사할 수 있습니다.
 
-If this policy changes, the new effective date will be posted on this page.
+- **열람:** 앱 화면에서 직접 확인
+- **정정:** 팀 설정 메뉴에서 회원 이름·등급 등을 수정
+- **삭제:** 팀 설정에서 개별 회원 삭제, 또는 앱 데이터 삭제로 일괄 삭제
+- **처리정지:** 앱을 사용하지 않거나 제거함으로써 즉시 처리 중단
 
-## 9. Contact
+추가 문의가 필요한 경우 아래 14항의 보호책임자 이메일로 연락하시기 바랍니다.
 
-For questions about this policy, contact:
+---
+
+## 8. 개인정보의 안전성 확보 조치
+
+앱은 다음과 같은 설계상의 조치를 통해 개인정보의 안전성을 확보합니다.
+
+- **외부 전송 차단:** 앱은 인터넷·블루투스·기타 외부 통신 채널로 사용자 정보를 전송하지 않습니다.
+- **로컬 저장:** 모든 데이터는 디바이스 운영체제가 제공하는 앱 격리 저장소(`AsyncStorage`)에만 저장되며, 다른 앱이 접근할 수 없습니다.
+- **분석·광고·크래시 도구 미사용:** 사용자 행동을 추적하는 어떤 SDK도 포함하지 않습니다.
+- **최소 권한 원칙:** 카메라·위치·마이크·연락처 등 어떤 시스템 권한도 요청하지 않습니다.
+
+---
+
+## 9. 개인정보 자동 수집 장치(쿠키 등)
+
+앱은 쿠키, 식별자, 트래킹 픽셀 등 자동 수집 장치를 사용하지 않습니다.
+
+---
+
+## 10. 만 14세 미만 아동의 개인정보
+
+앱은 만 14세 미만 아동을 대상으로 하지 않으며, 아동의 개인정보를 의도적으로 수집하지 않습니다.
+
+---
+
+## 11. 앱 권한
+
+앱은 디바이스의 카메라, 위치, 마이크, 연락처, 사진, 알림 등 어떠한 시스템 권한도 요청하지 않습니다.
+
+---
+
+## 12. 개인정보 보호책임자
+
+앱 운영자는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만 처리 및 피해 구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다.
+
+- **성명:** JJTeam 운영자 (No1Joon)
+- **이메일:** jjrottensweetpotato@gmail.com
+
+정보주체는 본 앱을 이용하면서 발생한 모든 개인정보 보호 관련 문의, 불만 처리, 피해 구제 등에 관한 사항을 위 연락처로 문의하실 수 있습니다.
+
+---
+
+## 13. 권익침해 구제 방법
+
+정보주체는 개인정보 침해로 인한 구제를 받기 위하여 아래 기관에 분쟁 해결, 상담 등을 신청할 수 있습니다.
+
+| 기관 | 전화 | 웹사이트 |
+|---|---|---|
+| 개인정보분쟁조정위원회 | 1833-6972 | www.kopico.go.kr |
+| 개인정보침해신고센터 (KISA) | 국번없이 118 | privacy.kisa.or.kr |
+| 대검찰청 사이버수사과 | 국번없이 1301 | www.spo.go.kr |
+| 경찰청 사이버수사국 | 국번없이 182 | ecrm.cyber.go.kr |
+
+---
+
+## 14. 정책 변경
+
+본 개인정보 처리방침의 내용 추가, 삭제, 수정이 있을 경우에는 시행 7일 전부터 본 페이지를 통해 공지합니다. 다만, 이용자 권리의 중요한 변경이 있을 경우에는 최소 30일 전에 공지합니다.
+
+---
+
+## 15. 문의처
+
+본 방침에 관한 문의는 아래로 보내주시기 바랍니다.
 
 **Email:** jjrottensweetpotato@gmail.com
