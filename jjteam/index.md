@@ -8,3 +8,5 @@ title: JJTeam
 
 - [개인정보 처리방침 (한국어)](./privacy)
 - [Privacy Policy (English)](./privacy-en)
+- [고객 지원 (한국어)](./support)
+- [Support (English)](./support-en)
